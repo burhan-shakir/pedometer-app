@@ -6,9 +6,11 @@ import rahat_logo from "./src/assets/rahat_logo.png";
 import heart_stroke_found_logo from "./src/assets/heart_stroke_logo.png";
 
 // ─── FIREBASE CONFIG  ──────────────────────────────────────────
+const apiKey = process.env.GOOGLE_API_KEY;
+const authDomain = process.env.FIREBASE_AUTH_DOMAIN;
 const firebaseConfig = {
-  apiKey: "AIzaSyC-fZJAkF-DSodTl-6GkrJ2RfZhecRu3JA",
-  authDomain: "walkathon-ed707.firebaseapp.com",
+  apiKey: apiKey,
+  authDomain: authDomain,
   projectId: "walkathon-ed707",
   storageBucket: "walkathon-ed707.firebasestorage.app",
   messagingSenderId: "906845305431",
